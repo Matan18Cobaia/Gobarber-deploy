@@ -13,7 +13,7 @@ export default {
   driver: process.env.MAIL_DRIVER || 'ethereal',
   defaults: {
     from: {
-      email: 'email@padrão.com',
+      email: 'mateusandriola@matandriola.com',
       name: 'Mateus Andriola'
     }
   }
