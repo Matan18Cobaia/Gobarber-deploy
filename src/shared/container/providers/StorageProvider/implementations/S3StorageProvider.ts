@@ -25,7 +25,7 @@ export default class DiskStorageProvider implements IStorageProvider {
       ACL: 'public-read',
       Body: fileContent,
       ContentType,
-      ContentDisposition: `inline; filenmane=${file}`
+      ContentDisposition: `inline; filename=${file}`
 
     }).promise();
     await fs.promises.unlink(originalPath);
