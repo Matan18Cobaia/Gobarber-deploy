@@ -17,10 +17,10 @@ jobs:
         node-version: 12.x
 
     - name: Install dependencies
-       run: yarn
+      run: yarn
        
     # Executar a build
-    -name: Run build
+    - name: Run build
       run: yarn build
   
     # Copiar pasta dist pra dentro da Digital Ocean
